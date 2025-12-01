@@ -12,19 +12,19 @@ public class BaseProg {
 		System.out.println("Hello world");
 		
 		//duplicate elements in array
-		int[] arr = {1,5,8,9,6,3,1,5,3,4,8,9};
-		int flag = 0;
-		for(int i=0; i<arr.length;i++)
-		{
-			for(int j=i+1;j<arr.length;j++)
-			{
-				if(arr[i]==arr[j])
-				{
-					System.out.println(arr[j]);
-					flag++;
-				}
-			}
-		}
+//		int[] arr = {1,5,8,9,6,3,1,5,3,4,8,9};
+//		int flag = 0;
+//		for(int i=0; i<arr.length;i++)
+//		{
+//			for(int j=i+1;j<arr.length;j++)
+//			{
+//				if(arr[i]==arr[j])
+//				{
+//					System.out.println(arr[j]);
+//					flag++;
+//				}
+//			}
+//		}
 //		System.out.println("count of numbers repeating:"+flag);
 		//extract a word from a string
 //		String word = "This is just a sample code";
